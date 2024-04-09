@@ -21,7 +21,7 @@ async def get_data(request: Request):
 text = 'Hi Nikunj, Following up on this issue. Please let us know of the status. Sincerely, Nikunj'
 #print(f'{nlp(text)}')
 
-genai.configure(api_key="AIzaSyBwKOUT0DaLHUaqdtWyCNRqU8zgeBwGiT4")
+genai.configure(api_key="")
 
 defaults = {
  'model': 'models/text-bison-001',
